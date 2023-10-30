@@ -1,0 +1,27 @@
+nav {
+    background-color: rgb(230, 143, 211);
+    color: rgb(119, 60, 111);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    height: 60px;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(145, 67, 155);
+    padding: 8px 16px;
+    margin-right: 4%;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: rgb(226, 135, 171);
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(238, 206, 230);
+}
